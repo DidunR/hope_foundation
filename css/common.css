@@ -7,7 +7,20 @@
 @import url(/fonts/MyriadPro-Regular_1.otf);
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --menu-color: #fff;
+    --h1-color: rgb(248, 184, 3);
+    --title-font-family: "Frank Ruhl Libre", serif;
+    --text-font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
