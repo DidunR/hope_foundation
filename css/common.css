@@ -1,0 +1,13 @@
+@import url(/fonts/arial.ttf);
+@import url(/fonts/Cotta\ Free.otf);
+@import url(/fonts/Montserrat-Bold.ttf);
+@import url(/fonts/Montserrat-Medium.ttf);
+@import url(/fonts/Montserrat-Regular.ttf);
+@import url(/fonts/MyriadPro-Bold_2.otf);
+@import url(/fonts/MyriadPro-Regular_1.otf);
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
