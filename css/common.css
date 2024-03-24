@@ -1,24 +1,43 @@
-@import url(/fonts/arial.ttf);
-@import url(/fonts/Cotta\ Free.otf);
-@import url(/fonts/Montserrat-Bold.ttf);
-@import url(/fonts/Montserrat-Medium.ttf);
-@import url(/fonts/Montserrat-Regular.ttf);
-@import url(/fonts/MyriadPro-Bold_2.otf);
-@import url(/fonts/MyriadPro-Regular_1.otf);
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: auto;
 }
 
 :root {
     scroll-behavior: smooth;
-    --menu-color: #fff;
-    --h1-color: rgb(248, 184, 3);
-    --title-font-family: "Frank Ruhl Libre", serif;
-    --text-font-family: 'Rubik', sans-serif;
+    --text-color-peach: rgb(152, 90, 86);
+    --text-color-brick: rgb(139, 78, 73);
+    --text-color-light: rgb(235, 221, 220);
 }
 
+@font-face {
+    font-family: "Arial";
+    src: url(fonts/arial.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Cotta";
+    src: url(fonts/Cotta\ Free.otf) format("opentype");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(fonts/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url(fonts/MyriadPro-Bold_2.otf) format("opentype");
+}
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url(fonts/MyriadPro-Regular_1.otf) format("opentype");
+}
