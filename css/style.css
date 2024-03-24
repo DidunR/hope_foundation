@@ -1,17 +1,19 @@
 .header {
     background-image: url(/sources/our_story_background.jpg);
+    /* padding: 20px; */
+}
+
+.header_logo {
+    display: block;
 }
 
 .header img {
-    width: 100px;
-    max-width: 320px;
+    width: 100%;
+    max-width: 200px;
 }
 
-.header a {
-    color: white;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
+.header_links {
+    display: none;
 }
 
 .support_us {
@@ -19,7 +21,6 @@
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
-    margin: ;
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
