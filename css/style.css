@@ -20,8 +20,11 @@
     padding-top: 20px;
 }
 
+.main_support {
+    text-align: center;
+}
+
 .support_us {
-    margin-left: 33%;
     background-color: rgb(222, 124, 113);
     color: var(--text-color-light);
     border-radius: 10px;
@@ -31,17 +34,42 @@
     text-decoration: none;
 }
 
-/* Something wrong with our fonts */
-
-/* .our_story_title {
-    /* font-family: "MyriadPro-Bold" */
-/* } */ 
+.our_story_title {
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 15vw;
+    color: var(--text-color-peach);
+} 
 
 .our_story_head img {
-    width: 15%
+    margin-left: 0px;
+    width: 10%
 }
 
 .our_story_head {
     margin-top: 30px;
     display: flex;
+}
+
+.our_story_line {
+    display: block;
+    margin-top: -3%;
+    height: 1px;
+    width: 80%;
+}
+
+.our_story_description_title {
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 7vw;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--text-color-peach);
+}
+
+.our_story_description {
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text-color-peach);
 }

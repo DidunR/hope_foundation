@@ -35,7 +35,7 @@
 }
 @font-face {
     font-family: "MyriadPro-Bold";
-    src: url(/fonts/MyriadPro-Bold_2.otf) format("opentype");
+    src: url(fonts/MyriadPro-Bold_2.otf) format("opentype");
 }
 @font-face {
     font-family: "MyriadPro-Regular";
