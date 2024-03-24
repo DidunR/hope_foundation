@@ -1,15 +1,10 @@
 .header {
     background-image: url(/sources/our_story_background.jpg);
-    /* padding: 20px; */
-}
-
-.header_logo {
-    display: block;
+    padding: 20px;
 }
 
 .header img {
     width: 100%;
-    max-width: 200px;
 }
 
 .header_links {
