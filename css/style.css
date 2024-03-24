@@ -1,3 +1,5 @@
+/* Header */
+
 .header {
     background-image: url(/sources/our_story_background.jpg);
     padding: 20px;
@@ -11,11 +13,15 @@
     display: none;
 }
 
+/* Our story */
+
 .our_story {
     background-image: url(/sources/our_story_background.jpg);
+    padding-top: 20px;
 }
 
 .support_us {
+    margin-left: 33%;
     background-color: rgb(222, 124, 113);
     color: var(--text-color-light);
     border-radius: 10px;
@@ -23,4 +29,19 @@
     cursor: pointer;
     font-family: "Arial";
     text-decoration: none;
+}
+
+/* Something wrong with our fonts */
+
+/* .our_story_title {
+    /* font-family: "MyriadPro-Bold" */
+/* } */ 
+
+.our_story_head img {
+    width: 15%
+}
+
+.our_story_head {
+    margin-top: 30px;
+    display: flex;
 }
