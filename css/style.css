@@ -1,0 +1,27 @@
+.header {
+    background-image: url(/sources/our_story_background.jpg);
+}
+
+.header img {
+    width: 100px;
+    max-width: 320px;
+}
+
+.header a {
+    color: white;    
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.support_us {
+    background-color: rgb(222, 124, 113);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: ;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
