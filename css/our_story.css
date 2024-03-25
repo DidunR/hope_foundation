@@ -1,20 +1,3 @@
-/* Header */
-
-.header {
-    background-image: url(/sources/our_story_background.jpg);
-    padding: 20px;
-}
-
-.header img {
-    width: 100%;
-}
-
-.header_links {
-    display: none;
-}
-
-/* Our story */
-
 .our_story {
     background-image: url(/sources/our_story_background.jpg);
     padding-top: 20px;

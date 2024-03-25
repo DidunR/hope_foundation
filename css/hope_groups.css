@@ -1,0 +1,12 @@
+.hope_groups {
+    background-image: url(/sources/hope_groups_background.jpg);
+}
+
+.hope_groups_title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 10vw;
+    color: var(--text-color-light);
+} 
