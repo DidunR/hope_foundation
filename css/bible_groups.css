@@ -1,0 +1,36 @@
+.bible_groups {
+    background-image: url(/sources/bible_groups_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.bible_groups_title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 12vw;
+    color: var(--text-color-brick);
+}
+
+.bible_groups_line {
+    display: block;
+    margin-top: -0.9%;
+    height: 1px;
+    width: 80%;
+}
+
+.bible_groups_photo {
+    display: block;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.bible_groups_description {
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    margin: 20px 0;;
+    padding: 0 10px;
+    color: var(--text-color-peach);
+}

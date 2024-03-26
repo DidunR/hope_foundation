@@ -1,5 +1,7 @@
 .header {
     background-image: url(/sources/our_story_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
