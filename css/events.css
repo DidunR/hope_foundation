@@ -1,0 +1,66 @@
+/* .events {
+    background-image: url(/sources/events_background_top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.events {
+    background-image: 
+        url(/sources/events_background_top.jpg), /* Перша частина */
+        url(/sources/events_background_middle.jpg), /* Друга частина */
+        url(/sources/feedbacks_background.jpg); /* Третя частина */
+        background-size: 100% calc(30% - 10px), 100% calc(60% - 10px), 100% calc(10% - 10px); /* Розмір кожної картинки */
+    background-repeat: no-repeat; 
+    background-position: center top, center 60%, center bottom; /* Позиціонуємо кожну картинку */
+}
+
+.events_title {
+    text-align: center;
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 15vw;
+    color: var(--text-color-peach);
+}
+
+.events_collage_hidden {
+    display: none;
+}
+
+.events_collage_visible {
+    display: block;
+    width: 80%;
+}
+
+.events_discription_title {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 10px;
+    text-align: center;
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 7vw;
+    color: var(--text-color-peach);
+}
+
+.events_line {
+    display: block;
+    height: 1px;
+    width: 80%;
+}
+
+.events_discription {
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+    font-family: "Cotta";
+    font-weight: 400;
+    font-size: 5vw;
+    color: var(--text-color-peach);
+}
+
+.events_footer img {
+    display: block;
+    width: 80%;
+    padding-bottom: 10px;
+}
