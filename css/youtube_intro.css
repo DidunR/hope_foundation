@@ -1,0 +1,10 @@
+.youtube_intro {
+    display: block;
+    width: 100%;
+    /* Ширина, яка вам потрібна */
+}
+
+.youtube_intro iframe {
+    width: 100%;
+    /* При необхідності змініть розмір зображення */
+}
