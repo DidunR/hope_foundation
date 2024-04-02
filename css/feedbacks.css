@@ -1,6 +1,12 @@
 .feedbacks {
     background-image: url(/sources/feedbacks_background.jpg);
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.feedbacks img {
+    width: 90%;
+    display: block;
 }
 
 .feedbacks_visible_slide{
@@ -14,13 +20,13 @@
 .feedbacks_corousel_title {
     color: var(--text-color-light);
     font-family: "Montserrat-Bold";
-    margin: 20px;
+    margin-left: 7vw;
 }
 
 .feedbacks_corousel_subscription {
     color: var(--text-color-light);
     font-family: "Montserrat-Regular";
-    margin: 20px;
+    margin: 7vw;
 }
 
 
