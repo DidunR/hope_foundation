@@ -15,23 +15,23 @@
 
 @font-face {
     font-family: "Arial";
-    src: url(/fonts/arial.ttf) format("truetype");
+    src: url(fonts/arial.ttf) format("truetype");
 }
 @font-face {
     font-family: "Cotta";
-    src: url(/fonts/Cotta\ Free.otf) format("opentype");
+    src: url(fonts/Cotta\ Free.otf) format("opentype");
 }
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url(/fonts/Montserrat-Bold.ttf) format("truetype");
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
 }
 @font-face {
     font-family: "Montserrat-Medium";
-    src: url(/fonts/Montserrat-Medium.ttf) format("truetype");
+    src: url(fonts/Montserrat-Medium.ttf) format("truetype");
 }
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url(/fonts/Montserrat-Regular.ttf) format("truetype");
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: "MyriadPro-Bold";

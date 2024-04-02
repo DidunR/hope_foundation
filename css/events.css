@@ -6,9 +6,9 @@
 
 .events {
     background-image: 
-        url(/sources/events_background_top.jpg), /* Перша частина */
-        url(/sources/events_background_middle.jpg), /* Друга частина */
-        url(/sources/feedbacks_background.jpg); /* Третя частина */
+        url(sources/events_background_top.jpg), /* Перша частина */
+        url(sources/events_background_middle.jpg), /* Друга частина */
+        url(sources/feedbacks_background.jpg); /* Третя частина */
         background-size: 100% calc(30% - 10px), 100% calc(60% - 10px), 100% calc(10% - 10px); /* Розмір кожної картинки */
     background-repeat: no-repeat; 
     background-position: center top, center 60%, center bottom; /* Позиціонуємо кожну картинку */
