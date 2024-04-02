@@ -1,0 +1,27 @@
+.feedbacks {
+    background-image: url(/sources/feedbacks_background.jpg);
+    padding-bottom: 50px;
+}
+
+.feedbacks_visible_slide{
+    display: block;
+}
+
+.feedbacks_hidden_slide {
+    display: none;
+}
+
+.feedbacks_corousel_title {
+    color: var(--text-color-light);
+    font-family: "Montserrat-Bold";
+    margin: 20px;
+}
+
+.feedbacks_corousel_subscription {
+    color: var(--text-color-light);
+    font-family: "Montserrat-Regular";
+    margin: 20px;
+}
+
+
+
