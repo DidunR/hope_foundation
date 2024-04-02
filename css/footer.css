@@ -1,0 +1,49 @@
+.footer {
+    background-image: url(/sources/our_story_background.jpg);
+    padding: 10px 0;
+}
+
+.footer_desription {
+    color: var(--text-color-peach);
+    font-family: "Arial";
+    margin: 7vw;
+    text-align: center;
+}
+
+.footer_support {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin: 20px auto 0;
+}
+
+.follow_us {
+    color: var(--text-color-peach);
+    font-family: "Montserrat-Regular";
+    margin: 0 7vw;
+    text-align: center;
+}
+
+.footer img {
+    width: 90%;
+    display: block;
+    margin: 10px;
+}
+
+.footer_social {
+    width: 70%;
+    display: flex;
+}
+
+.footer_social a {
+    margin: 0 4vw;
+    padding: 0; /* Додайте цей рядок, щоб забрати зайві відступи */
+    display: inline-block; /* Цей рядок дозволить елементам займати лише необхідний простір */
+}
+
+.contacts {
+    color: var(--text-color-peach);
+    font-family: "Montserrat-Regular";
+    margin: 0 7vw;
+    text-align: center;
+}
