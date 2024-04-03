@@ -59,3 +59,11 @@
     padding: 0 10px;
     color: var(--text-color-peach);
 }
+
+.toggleButton {
+    display: block;
+    border: none; 
+    background: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
