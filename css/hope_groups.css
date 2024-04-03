@@ -1,6 +1,6 @@
 .hope_groups {
     background-image: url(/sources/hope_groups_background.jpg);
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 .hope_groups_title {
@@ -12,16 +12,6 @@
     color: var(--text-color-light);
 } 
 
-/* .hope_groups_hidden-slide {
-    display: none;
-}
-
-.hope_groups_visible-slide {
-    display: block;
-} */
-
-
-
 .hope_groups_carousel {
     margin: 20px;
     border-radius: 8px;
@@ -31,7 +21,9 @@
 .hope_groups_carousel img {
     padding-top: 10px;
     display: block;
-    width: 80%;
+    width: 80%;    
+    max-width: 100%; /* Додано */
+    height: auto; /* Додано */
 }
 
 .hope_groups_carousel_title {
