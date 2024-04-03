@@ -12,13 +12,15 @@
     color: var(--text-color-light);
 } 
 
-.hope_groups_hidden-slide {
+/* .hope_groups_hidden-slide {
     display: none;
 }
 
 .hope_groups_visible-slide {
     display: block;
-}
+} */
+
+
 
 .hope_groups_carousel {
     margin: 20px;
