@@ -1,12 +1,19 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const toggleButton = document.getElementById('toggleButton');
-    const content = document.getElementById('content');
+// Отримання посилань на всі кнопки та контейнери тексту
+var toggleButtons = document.querySelectorAll(".toggleButton");
+var textContainers = document.querySelectorAll(".textContainer");
 
-    toggleButton.addEventListener('click', function () {
-        if (content.style.display === 'none' || content.style.display === '') {
-            content.style.display = 'block';
+// Додавання обробника події для кожної кнопки
+toggleButtons.forEach(function (button, index) {
+    button.addEventListener("click", function () {
+        // Перевірка поточного стану видимості тексту
+        if (textContainers[index].style.display === "none") {
+            // Якщо текст прихований, показати його
+            textContainers[index].style.display = "block";
+            button.textContent = "Hide";
         } else {
-            content.style.display = 'none';
+            // Якщо текст видимий, сховати його
+            textContainers[index].style.display = "none";
+            button.textContent = "Read more";
         }
     });
 });
