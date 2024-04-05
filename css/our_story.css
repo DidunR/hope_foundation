@@ -2,7 +2,7 @@
     background-image: url(/sources/our_story_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .main_support {
@@ -61,9 +61,15 @@
 }
 
 .toggleButton {
+    margin-top: 20px;
     display: block;
     border: none; 
     background: none;
     cursor: pointer;
-    padding: 20px 0;
+    background-color: rgb(139, 78, 73);
+    color: var(--text-color-light);
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-family: "Arial";
+    text-decoration: none;
 }
