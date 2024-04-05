@@ -14,12 +14,32 @@
 }
 
 @media (min-width: 780px) {
-    .header img {
-        width: 30%;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
     }
+
+    .header_logo img {
+        order: 1;
+        /* Зміщуємо лого вліво */
+        width: 15em;
+
+    }
+
     .header_links {
         display: flex;
-        float: right;
-        
     }
+
+    .header_links a {
+        margin-left: 2em;
+        /* Задаємо відступи між посиланнями */
+        color: var(--text-color-peach);
+        cursor: auto;
+        font-family: "Arial";
+        font-size: 16px;
+        text-decoration: none;
+    }
+
 }
