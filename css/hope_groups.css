@@ -17,7 +17,6 @@
 /* TEST */
 .hope_groups_slider {
     max-width: 80%;
-    /* margin: 20px auto; */
     overflow: hidden;
 }
 
@@ -31,13 +30,13 @@
 .slider-prev {
     position: absolute;
     top: 60%;
-    right: 86%;
+    right: 90%;
 }
 
 .slider-next {
     position: absolute;
     top: 60%;
-    left: 86%;
+    left: 90%;
 }
 
 .hope_group_arrow button {

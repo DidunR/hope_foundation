@@ -1,7 +1,7 @@
 .feedbacks {
+    position: relative;
     background-image: url(/sources/feedbacks_background.jpg);
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .feedbacks img {
@@ -9,17 +9,69 @@
     display: block;
 }
 
+/* TEST */
+.feedbacks_slider {
+    max-width: 80%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.feedbacks_slider_line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.4s;
+}
+
+.button-prev {
+    position: absolute;
+    top: 50%;
+    right: 90%;
+}
+
+.button-next {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+.feedbacks_arrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgb(235, 221, 220);
+    filter: hue-rotate(15deg);
+    cursor: pointer;
+}
+
+.feedbacks_arrow_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.feedbacks_corousel {
+    height: 22em;
+    background-color: var(--text-color-break);
+}
+
+.feedbacks_corousel img {
+    visibility: hidden;
+}
+/* TEST */
+
 .feedbacks_corousel_title {
     color: var(--text-color-light);
     font-family: "Montserrat-Bold";
-    margin-left: 7vw;
+    /* margin-left: 7vw; */
 }
 
 .feedbacks_corousel_subscription {
     color: var(--text-color-light);
     font-family: "Montserrat-Regular";
-    margin: 7vw;
+    text-align: center;
+    /* margin: 7vw; */
 }
-
-
-
