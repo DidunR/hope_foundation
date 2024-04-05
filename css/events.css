@@ -2,7 +2,7 @@
     background-image: 
         url(/sources/events_background_middle.jpg), 
         url(/sources/feedbacks_background.jpg);
-        background-size: 100% calc(60% - 10px), 100% calc(10% - 10px); 
+        background-size: 100% calc(80% - 10px), 100% calc(20% - 10px); 
     background-repeat: no-repeat, repeat; 
     background-position: center top, center bottom; 
 }
@@ -52,7 +52,7 @@
 }
 
 .events_footer img {
+    padding-top: 20px;
     display: block;
     width: 80%;
-    padding-bottom: 10px;
 }
