@@ -1,8 +1,10 @@
 .bible_groups {
-    background-image: url(/sources/bible_groups_background.jpg);
-    background-size: cover;|
-    background-repeat: no-repeat;
-    padding-bottom: 20px;
+    background-image:
+        url(/sources/bible_groups_background.jpg),
+        url(/sources/events_background_middle.jpg);
+    background-size: 100% calc(90% - 10px), 100% calc(10% - 10px);
+    background-repeat: no-repeat, repeat;
+    background-position: center top, center bottom;
 }
 
 .bible_groups_title {
@@ -30,7 +32,8 @@
 .bible_groups_description {
     font-family: "Montserrat-Regular";
     text-align: center;
-    margin: 20px 0;;
+    margin: 20px 0;
+    ;
     padding: 0 10px;
     color: var(--text-color-peach);
 }
