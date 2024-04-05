@@ -13,4 +13,13 @@
     display: none;
 }
 
-
+@media (min-width: 780px) {
+    .header img {
+        width: 30%;
+    }
+    .header_links {
+        display: flex;
+        float: right;
+        
+    }
+}
