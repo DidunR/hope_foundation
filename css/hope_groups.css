@@ -1,27 +1,69 @@
 .hope_groups {
+    position: relative;
     background-image: url(/sources/hope_groups_background.jpg);
     padding: 20px;
 }
 
 .hope_groups_title {
+    padding-bottom: 20px;
     text-align: center;
     padding-top: 20px;
     font-family: "Cotta";
     font-weight: 400;
     font-size: 12vw;
     color: var(--text-color-light);
-} 
-
-.hope_groups_carousel {
-    margin: 20px;
-    border-radius: 8px;
-    background-color: var(--text-color-light);
-    
 }
 
-/* .hope_groups_carousel {
-    display: block;
-} */
+/* TEST */
+.hope_groups_slider {
+    max-width: 80%;
+    /* margin: 20px auto; */
+    overflow: hidden;
+}
+
+.hope_groups_slider_line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.4s;
+}
+
+.slider-prev {
+    position: absolute;
+    top: 60%;
+    right: 86%;
+}
+
+.slider-next {
+    position: absolute;
+    top: 60%;
+    left: 86%;
+}
+
+.hope_group_arrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgb(139, 78, 73);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.hope_group_arrow_icon {
+    width: 15px;
+    height: 15px;
+}
+/* TEST */
+
+.hope_groups_carousel {
+    height: 22em;
+    border-radius: 8px;
+    background-color: var(--text-color-light);
+}
 
 .hope_groups_carousel img {
     padding-top: 10px;
@@ -38,9 +80,14 @@
     color: var(--text-color-peach);
 }
 
+.hope_groups_text {
+    display: flex;
+    align-items: center;
+}
+
 .hope_groups_carousel_description {
     font-family: "Montserrat-Regular";
     text-align: center;
     padding: 10px 10px 20px 10px;
-    color: var(--text-color-peach); 
+    color: var(--text-color-peach);
 }
