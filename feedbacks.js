@@ -1,15 +1,17 @@
 const feedbackImages = document.querySelectorAll('.feedbacks_slider .feedbacks_slider_line img');
 const feedbackSliderLine = document.querySelector('.feedbacks_slider .feedbacks_slider_line');
+const buttonNext = document.querySelector('.button-next');
+const buttonPrev = document.querySelector('.button-prev');
+
 let feedbackCount = 0;
 let feedbackWidth;
 
 function initializeSlider() {
-    console.log('resize');
     feedbackWidth = document.querySelector('.feedbacks_slider').offsetWidth;
     feedbackSliderLine.style.width = feedbackWidth * feedbackImages.length + 'px';
     feedbackImages.forEach(item => {
         item.style.width = feedbackWidth + 'px';
-        item.style.height = 'auto';
+        item.style.height = '50px'; // Set height to 7px
     });
     rollFeedbackSlider();
 }
@@ -17,7 +19,7 @@ function initializeSlider() {
 initializeSlider();
 window.addEventListener('resize', initializeSlider);
 
-document.querySelector('.button-next').addEventListener('click', function () {
+buttonNext.addEventListener('click', function () {
     feedbackCount++;
     if (feedbackCount >= feedbackImages.length) {
         feedbackCount = 0;
@@ -25,7 +27,7 @@ document.querySelector('.button-next').addEventListener('click', function () {
     rollFeedbackSlider();
 });
 
-document.querySelector('.button-prev').addEventListener('click', function () {
+buttonPrev.addEventListener('click', function () {
     feedbackCount--;
     if (feedbackCount < 0) {
         feedbackCount = feedbackImages.length - 1;

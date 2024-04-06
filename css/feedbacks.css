@@ -77,13 +77,13 @@
 }
 
 @media (min-width: 1000px) {
-    .feedbacks_corousel{
+    /* .feedbacks_corousel{
         position: relative;
     }
     .feedbacks_corousel h3, p{
         position: absolute;
         top: 10%;
-    }
+    } */
     .feedbacks_corousel_title{
         font-size: 30px;
     }
