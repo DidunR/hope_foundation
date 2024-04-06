@@ -4,65 +4,50 @@ let count = 0;
 let width;
 
 function init() {
-    console.log('resize');
-    width = document.querySelector('.hope_groups_slider').offsetWidth;
-    sliderLine.style.width = width * images.length + 'px';
-    images.forEach(item => {
-        item.style.width = width + 'px';
-        item.style.height = 'auto';
-    });
-    rollSlider();
+    // Перевіряємо розмір екрану
+    if (window.matchMedia("(max-width: 780px)").matches) {
+        width = document.querySelector('.hope_groups_slider').offsetWidth;
+        sliderLine.style.width = width * images.length + 'px';
+        images.forEach(item => {
+            item.style.width = width + 'px';
+            item.style.height = 'auto';
+        });
+        rollSlider();
+    }
 }
 
 init();
-window.addEventListener('resize', init);
+window.addEventListener('resize', function() {
+    // Перевіряємо розмір екрану при ресайзі
+    if (window.matchMedia("(min-width: 780px)").matches) {
+        // Вимкнути функціонал JavaScript, якщо розмір екрану 780px або більше
+        window.removeEventListener('resize', init);
+        document.querySelector('.slider-next').removeEventListener('click', handleNext);
+        document.querySelector('.slider-prev').removeEventListener('click', handlePrev);
+    } else {
+        // Включити функціонал, якщо розмір екрану менше 780px
+        window.addEventListener('resize', init);
+        document.querySelector('.slider-next').addEventListener('click', handleNext);
+        document.querySelector('.slider-prev').addEventListener('click', handlePrev);
+    }
+});
 
-document.querySelector('.slider-next').addEventListener('click', function () {
+function handleNext() {
     count++;
     if (count >= images.length) {
         count = 0;
     }
     rollSlider();
-});
+}
 
-document.querySelector('.slider-prev').addEventListener('click', function () {
+function handlePrev() {
     count--;
     if (count < 0) {
         count = images.length - 1;
     }
     rollSlider();
-});
+}
 
 function rollSlider() {
     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-//$(document).ready(function () {
-//    $('.hope_groups_slider').slick({
-//        dots: true,
-//        infinite: false,
-//        speed: 300,
-//        slidesToShow: 1,
-//        adaptiveHeight: false,
-//        slidesToScroll: 1,
-//        arrows: false,
-        
-        // centerMode: true,
-        // rows: 1,
-        // slidesPerRow: 1,
-        // prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-        // nextArrow: '<button type="button" class="slick-next">Next</button>'
-//    });
-//});

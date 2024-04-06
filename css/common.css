@@ -5,6 +5,7 @@
     max-width: 1200px;
     margin: auto;
     cursor: default;
+    scroll-behavior: smooth;
 }
 
 :root {
