@@ -34,6 +34,24 @@
     text-align: center;
     margin: 20px 0;
     ;
-    padding: 0 10px;
+    padding: 0 30px;
     color: var(--text-color-peach);
+}
+
+@media (min-width: 500px) {
+    .bible_groups_description {        
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1000px) {    
+    .bible_groups_description  {        
+        font-size: 24px;
+    }
+    .toggleButton {
+        margin-top: 20px;        
+        padding: 6px 10px;
+        font-size: 16px;        
+    }
 }
