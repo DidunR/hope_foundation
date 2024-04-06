@@ -1,9 +1,11 @@
 .youtube_intro {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 1000px;
 }
 
 .youtube_intro iframe {
-    width: 100%; 
+    width: 100%;
+    height: 100%;    
 }
+
