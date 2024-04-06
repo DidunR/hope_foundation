@@ -48,10 +48,5 @@
 @media (min-width: 1000px) {    
     .bible_groups_description  {        
         font-size: 24px;
-    }
-    .toggleButton {
-        margin-top: 20px;        
-        padding: 6px 10px;
-        font-size: 16px;        
-    }
+    }    
 }
