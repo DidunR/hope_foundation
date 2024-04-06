@@ -70,7 +70,16 @@
 }
 
 
-@media (min-width: 1000px) {    
+@media (min-width: 1000px) {
+    .footer_desription {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .footer_text {
+        width: 500px;
+    }
     .footer_text  {        
         font-size: 24px;
     }
