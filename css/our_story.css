@@ -7,6 +7,7 @@
 
 .main_support {
     text-align: center;
+    margin-top: 20px;
 }
 
 .support_us {
@@ -72,4 +73,28 @@
     padding: 3px 5px;
     font-family: "Arial";
     text-decoration: none;
+}
+
+
+@media (min-width: 500px) {
+    .our_story_description {        
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .support_us {
+        border-radius: 10px;
+        padding: 15px 30px;
+        font-size: 25px;
+    }
+    .our_story_description {        
+        font-size: 24px;
+    }
+    .toggleButton {
+        margin-top: 20px;        
+        padding: 6px 10px;
+        font-size: 16px;        
+    }
 }
