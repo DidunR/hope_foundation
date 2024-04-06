@@ -33,12 +33,12 @@
     }
 
     .header_links a {
-        margin-left: 2em;
+        margin-left: 3em;
         /* Задаємо відступи між посиланнями */
         color: var(--text-color-peach);
         cursor: auto;
         font-family: "Arial";
-        font-size: 16px;
+        font-size: 18px;
         text-decoration: none;
     }
 

@@ -9,3 +9,26 @@
     height: 100%;    
 }
 
+@media (min-width: 465px) {
+    .youtube_intro {
+        height: 400px;
+    }
+}
+
+@media (min-width: 775px) {
+    .youtube_intro {
+        height: 500px;
+    }
+}
+
+@media (min-width: 960px) {
+    .youtube_intro {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1150px) {
+    .youtube_intro {
+        height: 700px;
+    }
+}
