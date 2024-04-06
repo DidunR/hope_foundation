@@ -122,11 +122,8 @@
 
     .hope_groups_carousel_title {
         text-align: center;
-        padding-top: 20px;
-        font-family: "Cotta";
-        font-weight: 400;
-        font-size: 7vw;
-        color: var(--text-color-peach);
+        padding-top: 10px;
+        font-size: 4vw;
     }
 
     .hope_groups_text {
@@ -136,10 +133,55 @@
     }
 
     .hope_groups_carousel_description {
-        font-family: "Montserrat-Regular";
         text-align: center;
-        padding: 10px 10px 20px 10px;
-        color: var(--text-color-peach);
+        padding: 10px 5px 20px 5px;
+    }
+    .hope_groups_slider {
+        overflow: visible;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hope_groups_slider_line {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Three columns */
+        grid-auto-rows: auto;
+        /* Auto rows */
+        grid-gap: 20px;
+        /* Gap between grid items */
+        margin-left: -1em;
+    }
+
+    .hope_groups_carousel {
+        border-radius: 8px;
+        background-color: var(--text-color-light);
+        padding: 10px;
+    }
+
+    .hope_groups_carousel img {
+        padding-top: 10px;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hope_groups_carousel_title {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 3vw;
+    }
+
+    .hope_groups_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hope_groups_carousel_description {
+        text-align: center;
+        padding: 10px 5px 20px 5px;
     }
     .hope_groups_slider {
         overflow: visible;
