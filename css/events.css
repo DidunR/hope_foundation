@@ -26,7 +26,7 @@
 
 .events_discription_title {
     text-align: center;
-    padding: 0 30px;
+    padding: 20px 30px;
     text-align: center;
     font-family: "Cotta";
     font-weight: 400;
@@ -61,12 +61,15 @@
 @media (min-width: 500px) {
     .our_story_description {        
         font-size: 20px;
-    }
+    }    
 }
 
 
 @media (min-width: 1000px) {    
     .our_story_description  {        
         font-size: 24px;
-    }    
+    }
+    .events_discription_title {
+        font-size: 52px;
+    }
 }
