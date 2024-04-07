@@ -93,3 +93,12 @@
         font-size: 52px;
     }
 }
+
+@media (min-width: 1200px) {
+    .events_title {
+        font-size: 160px;
+    }
+    .our_story_description_title {
+        font-size: 80px;
+    }
+}
