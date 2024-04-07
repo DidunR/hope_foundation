@@ -73,11 +73,11 @@ toggleButtons.forEach(function (button, index) {
             textContainers[index].style.display = "block";
             button.textContent = "Hide";
         } else {
-            // Якщо текст видимий, сховати його та прокрутити до місця, де була натиснута кнопка
+            // Якщо текст видимий, сховати його та прокрутити до початку блоку
             textContainers[index].style.display = "none";
             button.textContent = "Read more";
-            // Прокрутка до місця, де була натиснута кнопка
-            button.scrollIntoView({ behavior: "smooth", block: "center" });
+            // Прокрутка батьківського контейнера до початку блоку
+            button.parentNode.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     });
 });
