@@ -26,6 +26,7 @@
 .events_collage_visible {
     display: block;
     width: 80%;
+    padding-bottom: 5px;
 }
 
 .events_discription_title {
@@ -66,6 +67,21 @@
     .our_story_description {        
         font-size: 20px;
     }    
+}
+
+@media (min-width: 790px) {
+    .more_foto {        
+        display: block;
+    }
+    .events_collage {
+        display: flex;
+        justify-content: center;
+    }
+    .events_collage img {
+        width: calc(45% - 20px); /* Задаємо ширину кожному елементу, віднімаючи відсупи між ними */
+        margin: 10px; /* Відступи між елементами */
+        box-sizing: border-box; /* Враховуємо величину відступів у розрахунку ширини елементу */
+    }
 }
 
 
