@@ -61,7 +61,6 @@
 //     });
 // });
 
-
 var toggleButtons = document.querySelectorAll(".toggleButton");
 var textContainers = document.querySelectorAll(".textContainer");
 
@@ -74,9 +73,10 @@ toggleButtons.forEach(function (button, index) {
             textContainers[index].style.display = "block";
             button.textContent = "Hide";
         } else {
-            // Якщо текст видимий, сховати його
+            // Якщо текст видимий, сховати його та прокрутити до початку блоку
             textContainers[index].style.display = "none";
             button.textContent = "Read more";
+            textContainers[index].scrollIntoView({ behavior: "smooth", block: "start" });
         }
     });
 });
