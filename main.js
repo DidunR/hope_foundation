@@ -76,7 +76,9 @@ toggleButtons.forEach(function (button, index) {
             // Якщо текст видимий, сховати його та прокрутити до початку блоку
             textContainers[index].style.display = "none";
             button.textContent = "Read more";
-            textContainers[index].scrollIntoView({ behavior: "smooth", block: "start" });
+            // Прокрутка до початку блоку
+            textContainers[index].scrollIntoView();
         }
     });
 });
+
