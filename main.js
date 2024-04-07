@@ -44,9 +44,12 @@ toggleButtons.forEach(function (button, index) {
                 textContainer.style.opacity = "1";
             }, 100);
             button.textContent = "Hide";
-
             // Прокручування до початку блока
-            textContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            let containerOffsetTop = textContainer.closest('.container').offsetTop;
+            window.scrollTo({
+                top: containerOffsetTop,
+                behavior: "smooth"
+            });
         } else {
             // Плавне зникнення тексту
             textContainer.style.opacity = "0";
