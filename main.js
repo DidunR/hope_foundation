@@ -14,11 +14,10 @@ toggleButtons.forEach(function (button, index) {
             button.textContent = "Hide";
 
             // Прокручування до початку блока
-            var containerOffsetTop = textContainer.closest('.container').offsetTop;
-            window.scrollTo({
-                top: containerOffsetTop,
-                left: 0,
-                behavior: "smooth"
+            textContainer.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest"
             });
         } else {
             // Плавне зникнення тексту
@@ -30,6 +29,7 @@ toggleButtons.forEach(function (button, index) {
         }
     });
 });
+
 
 
 
