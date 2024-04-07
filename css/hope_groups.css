@@ -187,3 +187,12 @@
         overflow: visible;
     }
 }
+
+@media (min-width: 1200px) {
+    .hope_groups_title {
+        font-size: 140px;
+    }
+    .hope_groups_carousel_title {
+        font-size: 35px;
+    }
+}
