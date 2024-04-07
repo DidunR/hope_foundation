@@ -32,12 +32,17 @@
 .footer_social {
     width: 70%;
     display: flex;
+    
 }
 
 .footer_social a {
     margin: 0 4vw;
     padding: 0; /* Додайте цей рядок, щоб забрати зайві відступи */
     display: inline-block; /* Цей рядок дозволить елементам займати лише необхідний простір */
+}
+
+.footer_social img {
+    cursor: pointer;
 }
 
 .contacts {
