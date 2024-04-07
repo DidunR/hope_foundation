@@ -104,3 +104,12 @@
         margin: 1vw;        
     }
 }
+
+@media (min-width: 1200px) {
+    .footer_social {
+        width: 400px;
+    }
+    .footer_social a {
+        margin: 0 30px;
+    }
+}
