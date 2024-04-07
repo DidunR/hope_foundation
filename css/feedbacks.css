@@ -54,7 +54,7 @@
 }
 
 .feedbacks_corousel {
-    height: 22em;
+    height: 24em;
     background-color: var(--text-color-break);
 }
 
@@ -74,6 +74,7 @@
     font-family: "Montserrat-Regular";
     text-align: center;
     /* margin: 7vw; */
+    padding-top: 10px;
 }
 
 @media (min-width: 1000px) {
