@@ -77,7 +77,10 @@ toggleButtons.forEach(function (button, index) {
             textContainers[index].style.display = "none";
             button.textContent = "Read more";
             // Прокрутка до початку блоку
-            textContainers[index].parentNode.scrollTop = textContainers[index].offsetTop;
+            window.scrollTo({
+                top: textContainers[index].offsetTop,
+                behavior: 'smooth'
+            });
         }
     });
 });
