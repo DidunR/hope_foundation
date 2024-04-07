@@ -51,6 +51,7 @@
 .feedbacks_arrow_icon {
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 .feedbacks_corousel {

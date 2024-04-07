@@ -31,12 +31,14 @@
     position: absolute;
     top: 60%;
     right: 90%;
+    cursor: pointer;
 }
 
 .slider-next {
     position: absolute;
     top: 60%;
     left: 90%;
+    cursor: pointer;
 }
 
 .hope_group_arrow button {
@@ -55,6 +57,7 @@
 .hope_group_arrow_icon {
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 /* TEST */
