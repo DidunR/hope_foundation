@@ -5,7 +5,13 @@
     max-width: 1200px;
     margin: auto;
     cursor: default;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: rgb(251, 234, 224);
+    background-size: cover;
+    z-index: -1;
 }
 
 :root {
